@@ -1,4 +1,6 @@
 # cybers cars
+welcome
+we currently have no cars but you can request one on my kofi profile
 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>
   kofiWidgetOverlay.draw('cyber73917', {
