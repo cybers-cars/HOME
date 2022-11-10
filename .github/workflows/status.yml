@@ -1,2 +1,25 @@
 - name: GitHub Status
+  # You may pin to the exact commit or the version.
+  # uses: crazy-max/ghaction-github-status@8d1f141b985510f36a0376b75b4dc8b0cfc90e8a
   uses: crazy-max/ghaction-github-status@v3.1.0
+  with:
+    # Defines threshold for overall status (also called rollup) of GitHub to fail the job (minor, major or critical)
+    overall_threshold: # optional
+    # Defines threshold for Git Operations to fail the job (operational, degraded_performance, partial_outage or major_outage)
+    git_threshold: # optional
+    # Defines threshold for API Requests to fail the job (operational, degraded_performance, partial_outage or major_outage)
+    api_threshold: # optional
+    # Defines threshold for Webhooks to fail the job (operational, degraded_performance, partial_outage or major_outage)
+    webhooks_threshold: # optional
+    # Defines threshold for Issues to fail the job (operational, degraded_performance, partial_outage or major_outage)
+    issues_threshold: # optional
+    # Defines threshold for Pull Requests to fail the job (operational, degraded_performance, partial_outage or major_outage)
+    prs_threshold: # optional
+    # Defines threshold for GitHub Actions to fail the job (operational, degraded_performance, partial_outage or major_outage)
+    actions_threshold: # optional
+    # Defines threshold for GitHub Packages to fail the job (operational, degraded_performance, partial_outage or major_outage)
+    packages_threshold: # optional
+    # Defines threshold for GitHub Pages to fail the job (operational, degraded_performance, partial_outage or major_outage)
+    pages_threshold: # optional
+    # Defines threshold for GitHub Codespaces to fail the job (operational, degraded_performance, partial_outage or major_outage)
+    codespaces_threshold: # optional
