@@ -1,0 +1,2 @@
+- name: GitHub Status
+  uses: crazy-max/ghaction-github-status@v3.1.0
